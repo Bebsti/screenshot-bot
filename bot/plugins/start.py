@@ -29,7 +29,7 @@ async def start(c, m, cb=False):
 
     TEXT = f"🌷Hi {m.from_user.mention},\n\nI'm Screenshot Generator Bot. I can provide screenshots, sample video from "
     TEXT += "your video files. For more details check help.\n\n"
-    TEXT += f"**Maintained By:** {mention}"
+    TEXT += f"**Maintained By:** **{mention}**"
 
     if cb:
         try:
