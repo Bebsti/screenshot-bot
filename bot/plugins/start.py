@@ -19,7 +19,7 @@ async def start(c, m, cb=False):
 
     BUTTONS = [[
         InlineKeyboardButton("My Father 🪼", url=f"https://t.me/signature_98"),
-        InlineKeyboardButton("Request Channel 📲", url=f"https://t.me/world_wide_movies")
+        InlineKeyboardButton("Request Channel 📲", url=f"https://t.me/wwm_request_group")
         ],[
         InlineKeyboardButton("Help 🔧", callback_data="help"),
         InlineKeyboardButton("Settings ⚙", callback_data="set+settings")
